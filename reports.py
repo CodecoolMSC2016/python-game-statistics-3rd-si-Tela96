@@ -94,17 +94,3 @@ def when_was_top_sold_fps(file_name):
         if str(top_sell) in game[1]:
             return int(game[2])
 
-
-def main():
-    file_name = 'game_stat.txt'
-    # print(count_games('game_stat.txt'))
-    # decide('game_stat.txt', 2000)
-    #get_latest('game_stat.txt')
-    #count_by_genre('game_stat.txt', 'First-person shooter')
-    #get_line_number_by_title('game_stat.txt', 'Diablo III')
-    #sort_abc('game_stat.txt')
-    #get_genres('game_stat.txt')
-    #when_was_top_sold_fps('game_stat.txt')
-
-
-main()
