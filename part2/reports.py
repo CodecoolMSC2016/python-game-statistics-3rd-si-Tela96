@@ -84,5 +84,3 @@ def count_grouped_by_genre(file_name):
         elif row[3] in genre_dict:
             genre_dict[row[3]] += 1
     return genre_dict
-
-count_grouped_by_genre('game_stat.txt')
